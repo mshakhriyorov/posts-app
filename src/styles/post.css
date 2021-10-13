@@ -1,0 +1,29 @@
+.card{
+    margin: 10px;
+    transition: 0.3s linear;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px 0 black;
+}
+
+.search{
+    position: fixed;
+    top: 0;
+    left: 25px;
+    z-index: 1111;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.rasm{
+    width: 30%;
+}
+
+.text{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.text:hover{
+    color: red;
+}
